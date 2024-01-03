@@ -1,0 +1,330 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+ 
+}
+.headerlogo{
+    width: 136px;
+    height: 43px;
+    margin-top: 0px;
+    padding-top: 10px ;
+   
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 108px;
+    max-width: 100%;
+    height: 77px;
+}
+.navhead{
+    display: flex;
+    gap: 57px;
+    margin-left: 19px;
+    
+}
+nav{
+    font-family:'Montserrat', sans-serif; 
+}
+select {
+    border: none;
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header_button{
+    font-family: 'Noto Sans', sans-serif;
+    width: 78px;
+    height: 36px;
+    border-radius: 50px;
+    border: 1px solid;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer; 
+
+}
+.log_in{
+    margin-right: -135px;
+    border: 2px solid rgb(0, 112, 186);
+    color: rgb(0, 112, 186);
+    cursor: pointer;
+}
+.Sign_up{
+    margin-right: 21px;
+    background-color: rgb(0, 112, 186);
+    color: rgb(255, 255, 255);
+    border: transparent;
+    cursor: pointer;
+}
+
+.top_div1{
+    max-width: 100%;
+    height: 564px;
+    
+}
+.div1_video{
+    width: 100%;
+    height: 100%;
+}
+.div1_vid{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.header1{
+    position: absolute;
+    left: 23%;
+    top: 22%;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 800;
+}
+.div1_signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 314px;
+    height: 50px;
+    border-radius: 50px;
+    border: transparent;
+    color: #151589;
+    font-size: 15px;
+    font-weight: 700;
+    transform: translate(-50%, -116%);
+    cursor: pointer;
+}
+.top_div2{
+    background-color: #02387b;
+    max-width: 100%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+.div2_heading{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    margin-top: 12px;
+    font-size: 20px;
+
+}
+.div2_button{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.paypalB{
+    width: 143px;
+    border-radius: 50px;
+    border: 0px solid transparent;
+    color: #0d3685;
+    height: 38px;
+    font-size: 11.5px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+/*DUPLICATING*/
+
+.top_div3 , .top_div4 , .top_div5{
+    max-width: 100%;
+    height: 430px;
+    background-color: rgb(245, 245, 245);
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.global_pic , .div4_pic{
+width: 350px;
+height: 350px;
+margin-top: 40px;
+}
+.div3_text , .div4_text{
+    margin-top: 94px
+}
+.div3_header , .div4_header{
+    font-family: 'Noto Sans', sans-serif;
+    color: #00A8EA;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.para1 , .para2{
+    margin-top: 19px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+.shopNow{
+    margin-top: 30px;
+    width: 333px;
+    height: 51px;
+    border-radius: 50px;
+    border: 1px solid #0070ba;
+    color: #0070ba;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.brands{
+    width: 113px;
+    height: 33px;
+}
+.brands1{
+    width: 113px;
+    height: 65px;
+}
+.top_div6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 268px;
+    margin-bottom: 63px;
+}
+.brand_img{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.last_div{
+    max-width: 100%;
+    background-color: #00A8EA;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_last{
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 60px
+}
+.last_button{
+    width: 314px;
+    height: 50px;
+    border-radius: 50px;
+    border: transparent;
+    color: #0d3685;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.count_img{
+    width: 643.76px;
+    height: 106.4px;
+    margin-bottom: 13px;
+}
+.footer{
+    width: 100%;
+    height: 366px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 150px;
+
+}
+.temp{
+    line-height: 138px;
+}
+
+.ft_menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.ft_menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.terms{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin-top: -3px;
+}
+.ftspace{
+    margin-bottom: 40px
+}
+.indflag{
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+.flag
+{
+    display: flex;
+    align-items: center;
+    margin-left: 765px
+}
+.hrtag{
+    margin-right: 152px;
+    margin-top: 8px;
+
+}
+.foot_label{
+    display: flex;
+    gap: 239px;
+    margin-left: 148px;
+    margin-top: -84px;
+}
+.label1{
+display: flex;
+gap: 14px;
+}
+.label2{
+    display: flex;
+    gap: 14px;
+}
+.foot_label li, a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.ftpara1{
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 147px;
+    margin-top: 23px;
+    margin-right: 27px;
+    opacity: 0.7;
+}
+.para_link{
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(34, 34, 213);
+  opacity: 1;
+  
+}
+.footer_para{
+    width: 100%;
+    height: 138px;
+}
+.lab_txt:hover , .menu:hover a{
+    text-decoration: underline black;
+}
